@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4AB9EDE16C9C2B600E6CCA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AB9EDD16C9C2B600E6CCA9 /* UIKit.framework */; };
+		B4AB9EE016C9C2B600E6CCA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AB9EDF16C9C2B600E6CCA9 /* Foundation.framework */; };
+		B4AB9EE216C9C2B600E6CCA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AB9EE116C9C2B600E6CCA9 /* CoreGraphics.framework */; };
+		B4AB9EE816C9C2B600E6CCA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4AB9EE616C9C2B600E6CCA9 /* InfoPlist.strings */; };
+		B4AB9EEA16C9C2B600E6CCA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AB9EE916C9C2B600E6CCA9 /* main.m */; };
+		B4AB9EEE16C9C2B600E6CCA9 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AB9EED16C9C2B600E6CCA9 /* MMAppDelegate.m */; };
+		B4AB9EF016C9C2B600E6CCA9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B4AB9EEF16C9C2B600E6CCA9 /* Default.png */; };
+		B4AB9EF216C9C2B600E6CCA9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4AB9EF116C9C2B600E6CCA9 /* Default@2x.png */; };
+		B4AB9EF416C9C2B600E6CCA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4AB9EF316C9C2B600E6CCA9 /* Default-568h@2x.png */; };
+		B4AB9EF716C9C2B600E6CCA9 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AB9EF616C9C2B600E6CCA9 /* MMViewController.m */; };
+		B4AB9EFA16C9C2B700E6CCA9 /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AB9EF816C9C2B700E6CCA9 /* MMViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4AB9EDA16C9C2B600E6CCA9 /* songSpitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songSpitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AB9EDD16C9C2B600E6CCA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4AB9EDF16C9C2B600E6CCA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4AB9EE116C9C2B600E6CCA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4AB9EE516C9C2B600E6CCA9 /* songSpitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "songSpitter-Info.plist"; sourceTree = "<group>"; };
+		B4AB9EE716C9C2B600E6CCA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4AB9EE916C9C2B600E6CCA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4AB9EEB16C9C2B600E6CCA9 /* songSpitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "songSpitter-Prefix.pch"; sourceTree = "<group>"; };
+		B4AB9EEC16C9C2B600E6CCA9 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		B4AB9EED16C9C2B600E6CCA9 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		B4AB9EEF16C9C2B600E6CCA9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B4AB9EF116C9C2B600E6CCA9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B4AB9EF316C9C2B600E6CCA9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B4AB9EF516C9C2B600E6CCA9 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		B4AB9EF616C9C2B600E6CCA9 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		B4AB9EF916C9C2B700E6CCA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4AB9ED716C9C2B600E6CCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AB9EDE16C9C2B600E6CCA9 /* UIKit.framework in Frameworks */,
+				B4AB9EE016C9C2B600E6CCA9 /* Foundation.framework in Frameworks */,
+				B4AB9EE216C9C2B600E6CCA9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4AB9ED116C9C2B600E6CCA9 = {
+			isa = PBXGroup;
+			children = (
+				B4AB9EE316C9C2B600E6CCA9 /* songSpitter */,
+				B4AB9EDC16C9C2B600E6CCA9 /* Frameworks */,
+				B4AB9EDB16C9C2B600E6CCA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4AB9EDB16C9C2B600E6CCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB9EDA16C9C2B600E6CCA9 /* songSpitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4AB9EDC16C9C2B600E6CCA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB9EDD16C9C2B600E6CCA9 /* UIKit.framework */,
+				B4AB9EDF16C9C2B600E6CCA9 /* Foundation.framework */,
+				B4AB9EE116C9C2B600E6CCA9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4AB9EE316C9C2B600E6CCA9 /* songSpitter */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB9EEC16C9C2B600E6CCA9 /* MMAppDelegate.h */,
+				B4AB9EED16C9C2B600E6CCA9 /* MMAppDelegate.m */,
+				B4AB9EF516C9C2B600E6CCA9 /* MMViewController.h */,
+				B4AB9EF616C9C2B600E6CCA9 /* MMViewController.m */,
+				B4AB9EF816C9C2B700E6CCA9 /* MMViewController.xib */,
+				B4AB9EE416C9C2B600E6CCA9 /* Supporting Files */,
+			);
+			path = songSpitter;
+			sourceTree = "<group>";
+		};
+		B4AB9EE416C9C2B600E6CCA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4AB9EE516C9C2B600E6CCA9 /* songSpitter-Info.plist */,
+				B4AB9EE616C9C2B600E6CCA9 /* InfoPlist.strings */,
+				B4AB9EE916C9C2B600E6CCA9 /* main.m */,
+				B4AB9EEB16C9C2B600E6CCA9 /* songSpitter-Prefix.pch */,
+				B4AB9EEF16C9C2B600E6CCA9 /* Default.png */,
+				B4AB9EF116C9C2B600E6CCA9 /* Default@2x.png */,
+				B4AB9EF316C9C2B600E6CCA9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4AB9ED916C9C2B600E6CCA9 /* songSpitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4AB9EFD16C9C2B700E6CCA9 /* Build configuration list for PBXNativeTarget "songSpitter" */;
+			buildPhases = (
+				B4AB9ED616C9C2B600E6CCA9 /* Sources */,
+				B4AB9ED716C9C2B600E6CCA9 /* Frameworks */,
+				B4AB9ED816C9C2B600E6CCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = songSpitter;
+			productName = songSpitter;
+			productReference = B4AB9EDA16C9C2B600E6CCA9 /* songSpitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4AB9ED216C9C2B600E6CCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = StopBitingMe;
+			};
+			buildConfigurationList = B4AB9ED516C9C2B600E6CCA9 /* Build configuration list for PBXProject "songSpitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4AB9ED116C9C2B600E6CCA9;
+			productRefGroup = B4AB9EDB16C9C2B600E6CCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4AB9ED916C9C2B600E6CCA9 /* songSpitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4AB9ED816C9C2B600E6CCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AB9EE816C9C2B600E6CCA9 /* InfoPlist.strings in Resources */,
+				B4AB9EF016C9C2B600E6CCA9 /* Default.png in Resources */,
+				B4AB9EF216C9C2B600E6CCA9 /* Default@2x.png in Resources */,
+				B4AB9EF416C9C2B600E6CCA9 /* Default-568h@2x.png in Resources */,
+				B4AB9EFA16C9C2B700E6CCA9 /* MMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4AB9ED616C9C2B600E6CCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AB9EEA16C9C2B600E6CCA9 /* main.m in Sources */,
+				B4AB9EEE16C9C2B600E6CCA9 /* MMAppDelegate.m in Sources */,
+				B4AB9EF716C9C2B600E6CCA9 /* MMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4AB9EE616C9C2B600E6CCA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4AB9EE716C9C2B600E6CCA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4AB9EF816C9C2B700E6CCA9 /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4AB9EF916C9C2B700E6CCA9 /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4AB9EFB16C9C2B700E6CCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4AB9EFC16C9C2B700E6CCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4AB9EFE16C9C2B700E6CCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "songSpitter/songSpitter-Prefix.pch";
+				INFOPLIST_FILE = "songSpitter/songSpitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4AB9EFF16C9C2B700E6CCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "songSpitter/songSpitter-Prefix.pch";
+				INFOPLIST_FILE = "songSpitter/songSpitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4AB9ED516C9C2B600E6CCA9 /* Build configuration list for PBXProject "songSpitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4AB9EFB16C9C2B700E6CCA9 /* Debug */,
+				B4AB9EFC16C9C2B700E6CCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4AB9EFD16C9C2B700E6CCA9 /* Build configuration list for PBXNativeTarget "songSpitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4AB9EFE16C9C2B700E6CCA9 /* Debug */,
+				B4AB9EFF16C9C2B700E6CCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4AB9ED216C9C2B600E6CCA9 /* Project object */;
+}
