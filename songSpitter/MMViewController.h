@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMViewController : UIViewController
+@interface MMViewController : UIViewController <UITextFieldDelegate>
+- (IBAction)listSongs:(id)sender;
+-(BOOL)textFieldShouldReturn:(UITextField *)textField;
+
+@property (retain, nonatomic) IBOutlet UITextField *artistTextField;
+@property (retain, nonatomic) IBOutlet UITextField *songTextField;
+@property (retain, nonatomic) IBOutlet UITextField *albumTextField;
+@property (retain, nonatomic) IBOutlet UITextField *yearTextField;
+
+
 
 @end
