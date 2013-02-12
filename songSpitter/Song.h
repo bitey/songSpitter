@@ -10,9 +10,12 @@
 
 @interface Song : NSObject
 
+@property(nonatomic, retain) NSDictionary *songDictionary;
 @property(nonatomic, retain) NSString* artist;
 @property(nonatomic, retain) NSString* album;
 @property(nonatomic, retain) NSString* year;
 @property(nonatomic, retain) NSString* songName;
+
+
 
 @end

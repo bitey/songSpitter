@@ -40,6 +40,7 @@
 		B4AB9EF916C9C2B700E6CCA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
 		B4AB9F0016C9C3AB00E6CCA9 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
 		B4AB9F0116C9C3AB00E6CCA9 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		B4AB9F0416C9F11600E6CCA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/MMtextDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 				B4AB9F0116C9C3AB00E6CCA9 /* Song.m */,
 				B4AB9EF816C9C2B700E6CCA9 /* MMViewController.xib */,
 				B4AB9EE416C9C2B600E6CCA9 /* Supporting Files */,
+				B4AB9F0316C9F11600E6CCA9 /* MMtextDelegate.h */,
 			);
 			path = songSpitter;
 			sourceTree = "<group>";
@@ -203,6 +205,14 @@
 				B4AB9EF916C9C2B700E6CCA9 /* en */,
 			);
 			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+		B4AB9F0316C9F11600E6CCA9 /* MMtextDelegate.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4AB9F0416C9F11600E6CCA9 /* en */,
+			);
+			name = MMtextDelegate.h;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

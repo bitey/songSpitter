@@ -1,15 +1,13 @@
 //
-//  Song.m
+//  MMtextDelegate.h
 //  songSpitter
 //
 //  Created by StopBitingMe on 2/11/13.
 //  Copyright (c) 2013 StopBitingMe. All rights reserved.
 //
 
-#import "Song.h"
+#import <Foundation/Foundation.h>
 
-@implementation Song
-
-@synthesize songDictionary, artist,songName,album,year;
+@protocol MMtextDelegate <NSObject>
 
 @end
